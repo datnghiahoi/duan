@@ -1,0 +1,48 @@
+.container{
+    h1{text-align: center;}
+    form {
+        margin: 20px auto;
+        width: 300px;
+        padding: 20px;
+        
+      }
+      
+      input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+      }
+      
+      button[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px 0;
+      }
+      
+      button[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      
+      img {
+        margin-top: 10px;
+      }
+      
+}
+button {
+    background-color: #4CAF50; /* Màu xanh lá */
+    color: white; /* Màu chữ trắng */
+    padding: 10px 20px; /* Độ lớn của nút */
+    border: none; /* Loại bỏ đường viền */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px; /* Bo góc nút */
+  }
